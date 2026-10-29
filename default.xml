@@ -3,7 +3,7 @@
   <!-- GUUI Apex remote: all our modified forks live under wengu130301 -->
   <remote name="guui" fetch="https://github.com/wengu130301" />
 
-  <!-- GUUI Apex 1.0: override LineageOS 22.2 device tree for polaris with our fork -->
+  <!-- GUUI Apex 1.0: override LineageOS 23.2 device tree for polaris with our fork -->
   <remove-project name="LineageOS/android_device_xiaomi_polaris" />
   <project path="device/xiaomi/polaris" name="android_device_xiaomi_polaris" remote="guui" revision="guui-apex-1.0" />
 </manifest>
