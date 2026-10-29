@@ -5,5 +5,9 @@
 
   <!-- GUUI Apex 1.0: override LineageOS 23.2 device tree for polaris with our fork -->
   <remove-project name="LineageOS/android_device_xiaomi_polaris" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="guui" revision="guui-apex-1.0" />
+  <remove-project name="LineageOS/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="guui" revision="guui-apex-1.0" />
   <project path="device/xiaomi/polaris" name="android_device_xiaomi_polaris" remote="guui" revision="guui-apex-1.0" />
 </manifest>
